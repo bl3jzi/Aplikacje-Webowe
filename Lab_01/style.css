@@ -1,0 +1,46 @@
+h3 {
+    font-family: Gill Sans;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.row{
+    display: flex;
+    gap: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+a:visited{
+    color: #0758c9;
+}
+a:hover{
+    color: rgb(85, 16, 196);
+}
+.kwadrat1{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.kwadrat2{
+    height: 100px;
+    width: 100px;
+    background-color: red;   
+}
+.kwadrat3{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+.kwadrat4{
+    height: 100px;
+    width: 100px;
+    background-color: cyan;
+}
