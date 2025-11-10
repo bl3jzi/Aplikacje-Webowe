@@ -1,0 +1,36 @@
+/* 
+122C34
+224870
+2A4494
+4EA5D9
+
+F3CB2B
+#00c5a6
+#2c8475
+#354b46
+
+Gradient
+#122c34
+#166b70
+#3ab19f
+#88f9bb
+
+#005559
+#108070
+#50ac77
+*/
+html {
+    background-color: #122C34;
+    color: #83E638;
+    height: 100vh;
+
+}
+body {
+    height: 100vh;
+    margin: 0;
+}
+.main-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
