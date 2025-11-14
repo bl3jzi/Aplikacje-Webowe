@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div class="placeholder-left"></div>
+        <div class="package">
+
+
+
+            <div class="menu-item">
+
+                <h1>
+                    <a href="index.html">Strona główna</a>
+                </h1>
+
+            </div>
+
+            <div class="menu-item">
+                <h1>
+                    <a href="galeria.html">Galeria</a>
+                </h1>
+            </div>
+
+            <div class="menu-item">
+
+                <h1>
+                    <a href="kontakt.html">Kontakt</a>
+                </h1>
+
+            </div>
+        </div>
+
+        <div id="zegar-container" class="zegar">
+            <span id="zegar-czas">--:--:--</span>
+        </div>
+
+    </nav>
+
+    <main class="main-container-contact-site">
+        <div class="folder">
+            <div class="text-contact">
+                <h1>Formularz kontaktowy</h1>
+            </div>
+
+            <div class="contact-input">
+                <div class="name-surname">
+                    <div class="form-group">
+                        <label for="imie">Imię:</label>
+                        <input type="text" id="imie" name="imie" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="nazwisko">Nazwisko:</label>
+                        <input type="text" id="nazwisko" name="nazwisko" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="temat">Temat wiadomości:</label>
+                    <select id="temat" name="temat" required>
+                        <option value="" disabled selected>Wybierz temat...</option>
+                        <option value="pytanie_o_zegarki">Pytanie o konkretne zegarki</option>
+                        <option value="wspolpraca">Propozycja współpracy</option>
+                        <option value="inne">Inne zapytania</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="tresc">Treść wiadomości:</label>
+                    <textarea id="tresc" name="tresc" rows="6" required></textarea>
+                </div>
+
+                <button type="submit" class="button-itself" id="button-contact">Wyślij</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="author">
+            <h1>Autor: Kacper Hawro</h1>
+        </div>
+    </footer>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
