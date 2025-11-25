@@ -1,0 +1,106 @@
+html {
+    background-color: #0869a5;
+    height: 100vh;
+    font-family: sans-serif;
+}
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container {
+    background-color: #ffffff;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #2272ce;
+    margin-top: 0;
+    margin-bottom: 30px;
+}   
+
+.main-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+.passwd-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.field {
+    width: 60px; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+}
+.check {
+    transform: scale(1.3); 
+    margin-left: 10px;
+}
+
+#include_uppercase, #include_special_char {
+    transform: scale(1.5); 
+    margin: 7px; 
+}
+
+#generate_button {
+    padding: 12px 20px;
+    background-color: #187a7b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.main-container p:first-of-type { 
+    margin-right: 20px; 
+}
+
+.passwd-result p {
+    margin: 5px 0 0 0;
+}
+.gen_button {
+    display: flex;
+    align-self: center;
+}
+.passwd-gen {
+    display: flex;
+    align-self: center;
+}
+
+.passwd-option label {
+    font-size: 19px;
+    margin-right: 10px;
+}
+
+.passwd-gen-text p{
+    font-size: 20px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin: 0;
+}
+
+#generated_passwd {
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+    word-break: break-all;
+}
