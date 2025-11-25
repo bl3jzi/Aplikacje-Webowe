@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generator Haseł</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <main class="main-container">
+        <h1>Generator Haseł</h1>
+        <div class="main-menu">
+            <div class="passwd-option">
+                <label>Minimalna długość: </label>
+                <input type="number" class="field" id="min_length" value="8" min="1">
+            </div>
+
+            <div class="passwd-option">
+                <label>Maksymalna długość: </label>
+                <input type="number" class="field" id="max_length" value="16" min="1" />
+            </div>
+
+            <div class="passwd-option">
+                <label>Posiada wielkie litery: </label>
+                <input type="checkbox" class="check" id="include_uppercase" unchecked>
+            </div>
+
+            <div class="passwd-option">
+                <label>Posiada znaki specjalne: </label>
+                <input type="checkbox" class="check" id="include_special_char" unchecked>
+            </div>
+
+            <div class="passwd-gen">
+                <button class="gen_button" id="generate_button">Wygeneruj hasło</button>
+            </div>
+
+            <div class="passwd-gen-text">
+                <p>Wygenerowane hasło: </p>
+            </div>
+            <div class="passwd-gen-text">
+                <p id="generated_passwd">-------</p>
+            </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Przedmioty</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <main class="main-container">
+        <h1>Przedmioty</h1>
+
+        <div>
+            <label>Szukaj</label>
+            <input type="search" id="searchInput">
+
+            <label>Sortowanie: </label>
+            <select id="sortSelect">
+                <option>Rosnąco</option>
+                <option>Malejąco</option>
+                <option>Oryginalnie</option>
+            </select>
+        </div>
+        <div>
+
+            <table>
+                <tr>
+                    <th>Zdjęcie</th>
+                    <th>Tytuł</th>
+                    <th>Opis</th>
+                </tr>
+                <tbody id="productsTableBody">
+
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
